@@ -19,6 +19,9 @@
 }
 
 @media (min-width: 375px) and (max-width: 390px) {
+    .content__header {
+        margin-top: 10px;
+    }
     .content__label {
         height: 30vh;
     }
@@ -80,5 +83,14 @@
     .content__services-annually {
         width: 42%;
     }
+}
 
+@media 	only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-resolution: 1.5dppx),
+only screen and (min-resolution: 144dpi)  {
+   .content  {
+      background-image: url("../assets/4@2x.png");
+   }
 }
