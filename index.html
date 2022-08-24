@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Task</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="content__header">
+            <a href="#"><img src="./assets/cross.png" class="content__close" /></a>
+            <a href="#" id="restore" class="content__restore">Restore</a>
+        </div>
+        <div class="content__label">
+            <h1 id="access" class="content__main-text">Unlimited Access <br /> to All Features</h1>
+        </div>
+        <div id="option" class="content__options">
+            <div class="content__options-text">
+                <img src="./assets/unlimitedDocs.svg" class="content__options-image" />
+                <p id="docs">Unlimited documents</p>
+            </div>
+            <div class="content__options-export">
+                <img src="./assets/export.svg" class="content__options-image-export" />
+                <p id="cloud">Export to clouds</p>
+            </div>
+            <div class="content__options-recognition">
+                <img src="./assets/noAds.svg" class="content__options-image-recognition" />
+                <p id="recognition">Text recognition (OCR)</p>
+            </div>
+        </div>
+        <div class="content__services">
+            <div id="month" class="content__services-monthly active" onclick="selectMonthly()">
+                <h1 id="monthly" class="content__services-label">Monthly</h1>
+                <h1 id="pricePerMonth" class="content__services-price">$9.99</h1>
+                <div id="freeDays" class="content__services-action">3 DAYS FREE!</div>
+                <p id="perMonth" class="content__services-month-price">$9.99 month</p>
+            </div>
+            <div id="annuall" class="content__services-annually" onclick="selectAnnually()">
+                <div class="content__services-sale">-83%</div>
+                <h1 id="annually" class="content__services-label">Annually</h1>
+                <h1 id="perYear" class="content__services-price">$19.99</h1>
+                <div id="popular" class="content__services-action">MOST POPULAR</div>
+                <p id="pricePerMonthYear" class="content__services-annually-price">$1.66 month</p>
+            </div>
+        </div>
+        <button class="content__continue"><a id="link" href="https://apple.com/">Continue</a></button>
+        <p id="renewable" class="countent__continue-description">Auto-rewable. Cancel anytime</p>
+        <footer class="content__footer">
+            <a id="terms" href="#">Terms of Use</a>
+            <a id="policy" href="#">Privacy Policy</a>
+        </footer>
+    </div>
+    <script src="./scripts/languages.js"></script>
+    <script src="./scripts/index.js"></script>
+</body>
+
+</html>

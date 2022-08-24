@@ -1,0 +1,84 @@
+@media (min-width: 414px) {
+    .content__services-action {
+        width: 99%;
+    }
+
+    .content__services-sale {
+        right: 53px;
+    }
+
+    .content__services {
+        justify-content: space-around;
+        height: 23vh;
+    }
+
+    .content__services-monthly,
+    .content__services-annually {
+        width: 45%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 390px) {
+    .content__label {
+        height: 30vh;
+    }
+
+    .content__main-text {
+        font-size: 24px;
+    }
+
+    .content__options {
+        margin-top: 10px;
+        width: 60%;
+    }
+
+    .content__services {
+        height: 27vh;
+    }
+
+    .content__services-sale {
+        right: 38px;
+    }
+
+    .content__continue {
+        padding: 10px 0;
+    }
+
+    .content__services-action {
+        width: 100%;
+    }
+
+    .content__footer {
+        margin-top: 20px;
+    }
+    
+    .content__options.ru {
+        width: 73%;
+    }
+
+    .content__options.zh {
+        width: 44%;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 413px) {
+    .content__services-action {
+        width: 100%;
+    }
+
+    .content__services-sale {
+        right: 35px;
+    }
+
+    .content__services {
+        justify-content: space-around;
+        width: 90%;
+        height: 23vh;
+    }
+
+    .content__services-monthly,
+    .content__services-annually {
+        width: 42%;
+    }
+
+}
